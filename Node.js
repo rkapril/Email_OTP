@@ -23,7 +23,7 @@ const request = mailjet.post("send", { version: "v3.1" }).request({
         },
       ],
       Subject: "Your OTP",
-      TextPart: "Dear XXX," + "\n" + "Your OTP is" + " " + OTP + ".",
+      TextPart: "Dear XXX," + "\n" + "Your OTP is" + " " + OTP + "!",
     },
   ],
 });
