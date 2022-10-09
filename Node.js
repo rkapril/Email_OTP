@@ -13,13 +13,13 @@ const request = mailjet.post("send", { version: "v3.1" }).request({
   Messages: [
     {
       From: {
-        Email: "rkapril@me.com",
+        Email: "OPT@me.com",
         Name: "OTP",
       },
       To: [
         {
-          Email: "rkapril@me.com",
-          Name: "Ray Goh",
+          Email: "John@me.com",
+          Name: "John",
         },
       ],
       Subject: "Your OTP",
